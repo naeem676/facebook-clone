@@ -7,7 +7,7 @@ const Post = ({name, message, email, image, postImage, timestamp}) => {
         <div className='flex flex-col'>
             <div className='p-5 bg-white mt-5 rounded-t-2xl shadow-sm'>
                 <div className='flex items-center space-x-2'>
-                    <Image className='rounded-full' src={image} width={40} height={40} alt="" />
+                    <Image className='rounded-full' src={image} width={40} height={40} alt="picture" />
                     <div>
                         <p className='font-medium'>{name}</p>
                         {timestamp ? (
@@ -23,7 +23,7 @@ const Post = ({name, message, email, image, postImage, timestamp}) => {
                 postImage && 
                 
                 (<div className='relative h-56 md:h-56 bg-white'>
-                    <Image  src={postImage} objectFit='contain' layout='fill' />
+                    <Image  src={postImage} objectFit='contain' layout='fill' alt="picture" />
                 </div> )
             }
 
