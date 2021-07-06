@@ -10,6 +10,7 @@ import { db } from './components/firebase';
 
 export default function Home({session, posts}) {
   if(!session)return <Login/>;
+  console.log(session.user.image)
   return (
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>

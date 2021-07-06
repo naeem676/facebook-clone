@@ -19,6 +19,7 @@
     "tailwind-scrollbar-hide": "^1.0.3"
   },
   "devDependencies": {
+    "@angular/cli": "^12.1.1",
     "autoprefixer": "^10.2.6",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1",
